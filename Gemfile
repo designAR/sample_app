@@ -8,6 +8,10 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 gem "bootstrap-sass",  "3.4.1"
 gem "sassc-rails",     "2.1.2"
 gem "bcrypt",          "3.1.18"
+group :production do
+  gem "pg", "1.3.5"
+end
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 #gem "sprockets-rails"
 
